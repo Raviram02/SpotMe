@@ -1,1 +1,1 @@
-# SpotMe
+# SpotMe - Spotify Inspired Web Application
