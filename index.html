@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png">
     <title>SpotMe - Spotify Inspired Web Application</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="./Assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
         <div class="sidebar">
             <div class="nav">
-                <div class="nav-option" style="opacity: 1">
+                <div class="nav-option" style="opacity: 1;">
                     <i class="fa-solid fa-house"></i>
                     <a href="#">Home</a>
                 </div>
@@ -27,7 +27,7 @@
             <div class="library">
                 <div class="options">
                     <div class="lib-option nav-option">
-                        <img src="Assets/library_icon.png">
+                        <img src="./Assets/library_icon.png">
                         <a href="#">Your Library</a>
                     </div>
                     <div class="icons">
@@ -35,128 +35,137 @@
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="boxes">
-                    <div class="lib-box">
-                        <div class="box">
-                            <p class="box-p1">Create your first playlist</p>
-                            <p class="box-p2">It's easy, we'll help you</p>
-                            <button class="badge">Create playlist</button>
-                        </div>
-                        <div class="box">
-                            <p class="box-p1">Let's find some podcasts to follow</p>
-                            <p class="box-p2">We'll keep you updated on new episodes</p>
-                            <button class="badge">Browse podcasts</button>
-                        </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <img src="Assets/backward_icon.png">
-                    <img src="Assets/forward_icon.png" class="hide">
+                    <img src="./Assets/backward_icon.png">
+                    <img src="./Assets/forward_icon.png" class="hide">
                 </div>
-                <div class="sticky-nav-options">
+                <div class="sticky-nav-buttons">
                     <button class="badge nav-item hide">Explore Premium</button>
-                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
-                    <i class="fa-regular fa-user nav-item"></i>
-                </div>
-                
-            </div>
-            
-            <h2>Recently Played</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="Assets/card1img.jpeg" class="card-img">
-                    <p class="card-title">Tum Se (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
-                    <p class="card-info">Sachin-Jigar</p>
-                </div>
-                <div class="card">
-                    <img src="Assets/card2img.jpeg" class="card-img">
-                    <p class="card-title">nadaaniyan</p>
-                    <p class="card-info">Akshath</p>
-                </div>
-                <div class="card">
-                    <img src="Assets/card3img.jpeg" class="card-img">
-                    <p class="card-title">Iraaday</p>
-                    <p class="card-info">Rovalio, Abdul Hannan</p>
+                    <button class="badge dark-badge nav-item"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> Install App</button>
+                    <i class="fa-regular fa-user  nav-item"></i>
                 </div>
             </div>
 
-            <h2>Trending now near you</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="Assets/card4img.jpeg" class="card-img">
-                    <p class="card-title">ANIMAL</p>
-                    <p class="card-info">Manan Bhardwaj, Vishal Mishra, Jaani</p>
+            <div class="cards-section">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card1img.jpg" class="card-img">
+                        <p class="card-title">Dildara(Stand By Me)</p>
+                        <p class="card-info">Shafqat Amanat Ali</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card2img.jpg" class="card-img">
+                        <p class="card-title">Mortals</p>
+                        <p class="card-info">Warriyo</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card3img.jpg" class="card-img">
+                        <p class="card-title">Tum Se</p>
+                        <p class="card-info">Sachin Jigar</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="Assets/card5img.jpeg" class="card-img">
-                    <p class="card-title">Kabir Singh</p>
-                    <p class="card-info">Various Artists</p>
+                <h2>Popular albums and singles</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card4img.jpg" class="card-img">
+                        <p class="card-title">GLORY</p>
+                        <p class="card-info">Yo Yo Honey Singh</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card5img.jpg" class="card-img">
+                        <p class="card-title">Jo Tum Mere Ho</p>
+                        <p class="card-info">Anuv Jain</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card6img.jpg" class="card-img">
+                        <p class="card-title">Making Memories</p>
+                        <p class="card-info">Karan Aujla, Ikky</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card7img.jpg" class="card-img">
+                        <p class="card-title">With You</p>
+                        <p class="card-info">AP Dhillon</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card8img.jpg" class="card-img">
+                        <p class="card-title">All Time Hits</p>
+                        <p class="card-info">Album by Arijit Singh</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="Assets/card6img.jpeg" class="card-img">
-                    <p class="card-title">This Is Subh</p>
-                    <p class="card-info">The essential tracks, all in one playlist.</p>
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card9img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most pla...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card10img.jpeg" class="card-img">
+                        <p class="card-title">Top songs - India</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card11img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="Assets/card7img.jpeg" class="card-img">
-                    <p class="card-title">Making Memories</p>
-                    <p class="card-info">Karan Aujla, Ikky</p>
+                <div class="footer">
+                    <div class="line">
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="Assets/card8img.jpeg" class="card-img">
-                    <p class="card-title">This Is AP Dhillon</p>
-                    <p class="card-info">AP Dhillon</p>
-                </div>
-                <div class="card">
-                    <img src="Assets/card9img.jpeg" class="card-img">
-                    <p class="card-title">MS Dhoni: The Untold Story</p>
-                    <p class="card-info">Various Artists</p>
-                </div>
-            </div>
-
-            <h2>Featured charts</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="Assets/card10img.png" class="card-img">
-                    <p class="card-title">Top Songs - Global</p>
-                    <p class="card-info">Your weekly updates of the most played...</p>
-                </div>
-                <div class="card">
-                    <img src="Assets/card11img.png" class="card-img">
-                    <p class="card-title">Top Songs - India</p>
-                    <p class="card-info">Your weekly updates of the most played...</p>
-                </div>
-                <div class="card">
-                    <img src="Assets/card12img.jpeg" class="card-img">
-                    <p class="card-title">Top 50 - Global</p>
-                    <p class="card-info">Your daily updates of the most played...</p>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="line"></div>
             </div>
         </div>
         <div class="music-player">
-            <div class="album"></div>
+            <div class="album">
+                <img src="./Assets/card12img.jpg">
+                <div class="info">
+                    <h4 class="playing-card-title">Main Kho Gaya</h4>
+                    <h5 class="playing-card-info">Kushagra, Showkidd, Diljan</h5>
+                </div>
+                <i class="fa-solid fa-circle-check album-icon"></i>
+            </div>
             <div class="player">
                 <div class="player-controls">
-                    <img src="Assets/player_icon1.png" class="player-control-icon">
-                    <img src="Assets/player_icon2.png" class="player-control-icon">
-                    <img src="Assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
-                    <img src="Assets/player_icon4.png" class="player-control-icon">
-                    <img src="Assets/player_icon5.png" class="player-control-icon">
+                    <img src="./Assets/player_icon1.png" class="player-control-icon">
+                    <img src="./Assets/player_icon2.png" class="player-control-icon">
+                    <img src="./Assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;width: 2rem;">
+                    <img src="./Assets/player_icon4.png" class="player-control-icon">
+                    <img src="./Assets/player_icon5.png" class="player-control-icon">
                 </div>
                 <div class="playback-bar">
-                    <span class="curr-time">00:00</span>
+                    <span class="curr-time">0.00</span>
                     <input type="range" min="0" max="100" class="progress-bar" step="1">
-                    <span class="tot-time">03:34</span>
+                    <span class="tot-time">3.27</span>
                 </div>
             </div>
-            <div class="controls"></div>
+            <div class="controls">
+                <i class="fa-solid fa-expand"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-headphones-simple"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" class="progress-bar" style="width: 20%;">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
         </div>
     </div>
 </body>
